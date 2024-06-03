@@ -1,9 +1,10 @@
 import React from "react"
 
-import FoundingStory from "../assets/Images/FoundingStory.png"
-import BannerImage1 from "../assets/Images/aboutus1.webp"
-import BannerImage2 from "../assets/Images/aboutus2.webp"
-import BannerImage3 from "../assets/Images/aboutus3.webp"
+import FoundingStory from "../assets/Images/foundingstory.jpg"
+import BannerImage1 from "../assets/Images/student5.jpeg"
+import BannerImage2 from "../assets/Images/student4.jpeg"
+import BannerImage3 from "../assets/Images/student6.jpeg"
+import BannerImage4 from "../assets/Images/student7.jpeg"
 import Footer from "../components/Common/Footer"
 import ReviewSlider from "../components/Common/ReviewSlider"
 import ContactFormSection from "../components/core/AboutPage/ContactFormSection"
@@ -16,7 +17,7 @@ const About = () => {
   return (
     <div>
       <section className="bg-richblack-700">
-        <div className="relative mx-auto flex w-11/12 max-w-maxContent flex-col justify-between gap-10 text-center text-white">
+        <div className="relative mx-auto flex w-6/12 max-w-maxContent flex-col justify-between gap-10 text-center text-white">
           <header className="mx-auto py-20 text-4xl font-semibold lg:w-[70%]">
             Driving Innovation in Online Education for a
             <HighlightText text={"Brighter Future"} />
@@ -28,10 +29,11 @@ const About = () => {
             </p>
           </header>
           <div className="sm:h-[70px] lg:h-[150px]"></div>
-          <div className="absolute bottom-0 left-[50%] grid w-[100%] translate-x-[-50%] translate-y-[30%] grid-cols-3 gap-3 lg:gap-5">
+          <div className="absolute bottom-20 left-[50%] grid w-[100%] translate-x-[-50%] translate-y-[30%] grid-cols-4 gap-15 cursor-default hover:*: lg:gap-5">
             <img src={BannerImage1} alt="" />
             <img src={BannerImage2} alt="" />
             <img src={BannerImage3} alt="" />
+            <img src={BannerImage4} alt="" />
           </div>
         </div>
       </section>
