@@ -16,6 +16,7 @@ import LearningLanguageSection from "../components/core/HomePage/LearningLanguag
 import TimelineSection from "../components/core/HomePage/Timeline"
 
 function Home() {
+  
   return (
     <div>
       {/* Section 1 */}
@@ -33,7 +34,7 @@ function Home() {
         {/* Heading */}
         <div className="text-center text-4xl font-semibold">
           Empower Your Future with
-          <HighlightText text={"Coding Skills"} />
+          <HighlightText text={"3Sv Edumentor"} />
         </div>
 
         {/* Sub Heading */}
